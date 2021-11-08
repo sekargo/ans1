@@ -1,0 +1,7 @@
+- name: configure webserver
+  hosts: all
+  tasks:            
+  - name: create user
+    user:
+     name: rama
+     state: present
